@@ -1,0 +1,9 @@
+INSERT INTO DIM_MARKET
+SELECT
+    m.MARKET_ID,
+    m.MARKET_ID AS dt_ID,
+    m.EVENT_SLUG,
+    m.EVENT_START_TIME,
+    m.END_DATE,
+    m.RESULT
+FROM bitcoin_5m_markets m;

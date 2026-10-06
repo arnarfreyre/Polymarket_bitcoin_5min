@@ -1,0 +1,26 @@
+# Database files (multi-GB)
+*.duckdb
+*.duckdb.wal
+*.duckdb.tmp
+db/tmp_duckdb/
+
+# Virtual environments
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+
+# OS / IDE
+.DS_Store
+.idea/
+.claude/
